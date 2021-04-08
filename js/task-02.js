@@ -7,7 +7,7 @@ const ingredients = [
   'Приправы',
 ];
 
-
+// изначальное неправильное решение
 // const ingredientItemList = [...ingredients].forEach(ingredient => {
 //     const ingredientItem = document.createElement('li');
 //     ingredientItem.textContent = ingredient;
@@ -15,6 +15,8 @@ const ingredients = [
 //     ingredientsList.appendChild(ingredientItem)
 // })
 
+
+// откорректированный вариант решения
 const ingredientsItems = [];
 
 ingredients.map((ingredient) => {
